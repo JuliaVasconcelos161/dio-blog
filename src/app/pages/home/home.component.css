@@ -1,3 +1,6 @@
 .articles_container {
     margin: 30px;
+    display: flex;
+    flex-direction: row;
 }
+
