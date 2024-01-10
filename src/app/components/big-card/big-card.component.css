@@ -1,5 +1,4 @@
-.container_big-card {
-    border: solid #fff 2px;
+.big-card_container {
     margin-left: 10px;
     margin-right: 10px;
     width: 400px;
@@ -11,7 +10,7 @@
 }
 
 
-.container_big-card img {
+.big-card_container img {
     max-width: 100%;
 }
 
