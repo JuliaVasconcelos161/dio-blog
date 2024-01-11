@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.content_container a {
+    margin: 10px;
+}
+
 .content_cover img {
     border: 5px solid #cacaca;
     border-radius: 5px;

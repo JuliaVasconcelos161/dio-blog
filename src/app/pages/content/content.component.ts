@@ -1,13 +1,36 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { fakeData } from '../../data/dataFake';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrl: './content.component.css'
 })
-export class ContentComponent {
-  photoCover: string = "https://cdn.cloudflare.steamstatic.com/steam/apps/318950/capsule_616x353.jpg?t=1571776898";
-  photoCoverAlt: string = "Tangled's Movie image";
-  contentTitle: string = "Why you must watch Tangled?";
-  contentDescription: string = "It is a long established fact that a reader will be distracted.";
+export class ContentComponent implements OnInit {
+  photoCover: string = "";
+  photoCoverAlt: string = "";
+  contentTitle: string = "";
+  contentDescription: string = "";
+  private id: string | null  = "0";
+  
+  constructor(
+    private route:ActivatedRoute) {
+    
+  }
+  ngOnInit(): void {
+    this.route.paramMap.subscribe( value =>
+      this.id = value.get("id")
+    );
+
+    this.setValuesToComponent(this.id);
+  }
+
+  setValuesToComponent(id:string | null) {
+    const result = fakeData.filter(article => 
+      article.id.toString() === id)[0];
+      this.contentTitle = result.title;
+      this.contentDescription = result.description;
+      this.photoCover = result.photo;
+      this.photoCoverAlt = result.photoDescription;
+  }
 }
