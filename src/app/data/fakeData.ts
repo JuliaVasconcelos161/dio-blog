@@ -2,7 +2,7 @@ export const fakeData = [
     {
         "id":1,
         "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/318950/capsule_616x353.jpg?t=1571776898",
-        "title": "Why you must watch Tangled?",
+        "title": "Why must you watch Tangled?",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
         "photoDescription": "Tangled's Movie image"
     },
