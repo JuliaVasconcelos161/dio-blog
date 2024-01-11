@@ -1,27 +1,26 @@
 # Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+This project was developed following DIO's challenge "Criando um Blog com Angular", the teacher [Felipe Aguiar](https://github.com/felipeAguiarCode) helped us to create a blog using Angular Framework. We've made 4 components to structure our pages, big-card, small-card, menu-title, and menu-bar.
 
-## Development server
+#### [Original project's github](https://github.com/felipeAguiarCode/angular-blog)
+# Technologies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- TypeScript
+- Angular
 
-## Code scaffolding
+# Images
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- HomePage
 
-## Build
+![image](https://github.com/JuliaVasconcelos161/dio-blog/assets/94846502/e0df2b6a-4a52-44a7-93e6-c05ae8e8cbfd)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+- ContentPage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://github.com/JuliaVasconcelos161/dio-blog/assets/94846502/5d0d77c5-6c2b-4dc9-9482-4a80c0733b42)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
